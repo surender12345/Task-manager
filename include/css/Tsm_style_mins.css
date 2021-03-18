@@ -1,0 +1,374 @@
+.wp-admin .custum_table select {padding: 0px 4px !important;line-height: normal;height: 34px !important;vertical-align: middle;border-radius: 0px !important;
+}
+
+.input-group.date.form_date input {
+background: #fff;
+border-radius: 0px !important;
+}
+
+
+ #all_photographers_tasks{
+              margin: 24px auto !important;
+    width: 75% !important;
+        }
+
+#all_photographers_tasks td {
+    text-align: center !important;
+}
+
+        #all_photographers_tasks th {
+    width: 25%;
+    padding:8px 12px;
+     }
+           #all_photographers_tasks .btn-info {
+    color: #fff !important;
+    background-color: #ccc;
+    border-color: #ccc;
+    border: none;
+    padding: 8px 26px;
+}
+      #all_photographers_tasks .btn-info:hover,.btn-info.focus, .btn-info:focus {
+    box-shadow:none;
+
+    color: #fff !important;
+    background-color: #ccc;
+    border: none !important;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50% !important;
+  display: block !important;
+}
+
+/* The Close Button */
+.close {
+  color: #000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*modek content h2*/
+.modal-content h2{
+  text-align: center;
+  color:#;
+}
+
+/*table responsive*/
+.table_box .table-responsive {
+  overflow-x: scroll;
+  min-height:250px;
+  height:250px;
+}
+/*custom table*/
+   .custom-table{
+    border-collapse:collapse;
+    width:100%;
+    border:solid 1px #c0c0c0;
+    font-family:open sans;
+    font-size:11px;
+  }
+    .custom-table th,.custom-table td{
+      text-align:left;
+      padding:8px;
+      border:solid 1px rgba(0,0,0,0.2);
+    }
+       .custom-table th{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size:11px;
+}
+   .custom-table tr:nth-child(even){
+    background-color:rgba(0,0,0,0.1);
+  }
+  .custom-table a{
+    color: #0033cc;
+  }
+   .custom-table a:hover{
+    color: #f00;
+  }
+  /************media  query**********/
+    @media(min-width:320px) and (max-width:667px){
+      .modal-content {
+        width:80%;
+      }
+    }        
+/* On mouse-over, add a grey background color */
+.table_wiidthlarge:hover input ~ .checkmark {
+  background-color: #dd0605;
+}
+
+/* When the checkbox is checked, add a blue background */
+.table_wiidthlarge  input:checked ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.table_wiidthlarge  input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.table_wiidthlarge .checkmark:after {
+  left: 15px;
+  top: 30px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+ .cst_allschedule .table_wiidthlarge{    display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height:20px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding:27px 8px 8px 8px !important;
+}    
+  .table_wiidthlarge  input#check_location {
+    position: absolute;
+    left: 8px;
+    opacity: 0;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    top:28px;
+    z-index: 99999;
+}   
+            /* Create a custom checkbox */
+.table_wiidthlarge span.checkmark {
+
+    height: 15px !important;
+    width: 5px;
+   border: 1px solid #dd0605;
+        float: left;
+        padding: 8px 8px !important;
+}
+/*.cst_allschedule .table td, .table th {
+    padding: 2px 7px 0px 0px !important;
+}*/
+
+.modal-content .custom-table .bg-danger{background:#dd0605!important;}
+
+.table_wiidthlarge{
+    min-height:20px !important;
+}
+
+.manage span {
+  min-height: 70px;
+}
+.sticky-wrap {
+    margin: 0px !important;
+}
+/********end *********/
+    
+    input#front_date_picker {
+    padding: 9px 12px 10px 12px;
+    font-size: 16px;
+    font-family: open sans-serif;
+}
+#front_date_picker::-webkit-input-placeholder {
+   text-transform: initial;
+}
+
+#front_date_picker:-moz-placeholder { 
+   text-transform: initial;
+}
+
+
+.cst_view {
+background-color: #5e5d5d !important;
+color: #fff !important;
+padding: 7px 11px;
+border-radius: 150px;
+            }
+.cst_border_table thead {
+background-color: #d00;
+color: #fff;
+    }
+.table.cst_border_table {
+    border: 1px solid #dee2e6;
+}
+.cst_border_table tr, td, thead,th{
+    border-right: 1px solid #ccc;
+}
+.cst_popup {
+    cursor: pointer;
+}
+.spantableheading span {
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inherit;
+    text-align: center;
+    height: 50px;
+    width: 36px;
+}
+.table_wiidthlarge {
+    /*display: block;*/
+    min-width: 204px;
+    min-height: 76px !important;
+    line-height: 76px;
+    padding: 0px !important;
+}
+.spantableheading th {
+    background-color: #ccc;
+}
+.table-scroll .text-center {
+text-align: center !important;
+margin: 0 !important;
+padding: 25px 0px;
+font-weight: bold;
+}
+.table-scroll table td, table th, table tr{
+    text-align:center;
+}
+.modal{
+    z-index: 999999999; }
+    #ui-datepicker-div {
+z-index: 9999 !important;
+}
+
+.manage {position: relative;}
+.span_main {
+display: none !important;}  
+.fisrt_span {padding: 0px !important;position: absolute;left: 0px;} 
+.second_span {position: absolute;left: 36px;padding: 0px !important;}
+ .third_span {padding: 0px !important;position: absolute;left: 72px;} 
+.fourth_span {position: absolute;left: 108px;padding: 0px !important;}
+ .fifth_span {padding: 0px !important;position: absolute;left: 144px;}  
+.sixth_span {position: absolute;left: 180px;padding: 0px !important;}
+    
+/**********23 august-2019**********/ 
+
+.table_wiidthlarge input#check_location {
+
+position: absolute;
+left: 0px;
+opacity: 0;
+cursor: pointer;
+width: 18px;
+height: 18px;
+top: 11px;
+z-index: 99999;
+
+} 
+.check_btn {
+width: 100%;
+font-size: large;
+display: flex;
+}
+.text_content {
+width: 100%;
+display: flex;
+}
+.table_wiidthlarge .checkmark::after {
+
+left: 9px;
+top: 15px;
+}
+.cst_allschedule .table_wiidthlarge{
+/*padding: 11px 0px 8px 2px !important;*/
+font-size: 12px;
+}
+
+.fixed_header .spantableheading span {
+padding: 7px 4px !important;
+width: 25px !important;
+}
+.manage span {
+  width: 24px !important;
+}
+/*********row span**/
+.second_span {position: absolute;left: 24px;}
+.third_span {left: 48px;}
+.fourth_span {left: 72px;}
+.fifth_span { left: 96px;}
+.sixth_span {left: 120px;}
+.table_wiidthlarge {min-width: 100px;}
+.check_btn {display: none !important;}
+
+/**********16-august-2019**********/
+.ui-datepicker .ui-datepicker-prev span {
+    left: 38% !important;
+    font-size: 11px !important;
+    overflow: inherit !important;
+    color: #000 !important;
+    text-indent: -99999 !important;
+}
+
+
+/*************Bootsrap edit page css*********/
+
+
+
+/********table row**********/
+.sticky-intersect {
+    display: none;
+}
+.sticky-col tr.spantableheading {
+    background: #ccc;
+  
+    width: 52%;
+}
+
+.sticky-col{
+  border-right:none;
+}
+.sticky-wrap .sticky-thead {
+    background: #d00;
+
+    border: 1px solid #ccc;
+    color:#fff;
+}
+.sticky-thead th {
+    width: 128px !important;
+    border-right: 1px solid;
+  }
+
+@media(min-width:768px){
+.date_width {
+width: 20%;
+}	
+}
